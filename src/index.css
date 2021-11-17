@@ -1,0 +1,18 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-grey: #c0c4cc;
+  --color-lightgrey: #e1e3e6;
+
+  --background-color-faded: rgba(0, 0, 0, 0.7);
+}
+
+body {
+  margin: 0;
+  font-family: Inter;
+  background-color: var(--color-white);
+}
+
+body.modal-open {
+  overflow-y: hidden;
+}

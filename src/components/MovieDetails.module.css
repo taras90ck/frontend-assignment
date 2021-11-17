@@ -1,0 +1,46 @@
+.container {
+  max-width: 583px;
+}
+
+.title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+}
+
+.media {
+  width: 50%;
+}
+
+.media img {
+  max-width: 100%;
+}
+
+.text {
+  font-size: 0.875rem;
+}
+
+.text > span {
+  display: block;
+}
+
+.text > span:not(:first-child) {
+  margin-top: 16px;
+}
+
+@media (min-width: 576px) {
+  .content {
+    flex-wrap: nowrap;
+  }
+
+  .text {
+    width: 50%;
+  }
+}

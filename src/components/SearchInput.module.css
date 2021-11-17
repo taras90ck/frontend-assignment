@@ -1,0 +1,19 @@
+.container {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  padding: 10px;
+  border: 1px solid var(--color-grey);
+}
+
+.container input {
+  border: none;
+  outline: none;
+}
+
+@media (min-width: 576px) {
+  .container {
+    flex-grow: 0;
+  }
+}

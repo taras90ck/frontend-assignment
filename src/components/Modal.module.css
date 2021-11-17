@@ -1,0 +1,29 @@
+.container {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color-faded);
+}
+
+.content {
+  position: relative;
+  padding: 24px;
+  background-color: var(--color-white);
+}
+
+.button {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background: transparent;
+  padding: 6px;
+  border: 2px solid var(--color-black);
+}
+
+.icon {
+  display: block;
+}

@@ -1,0 +1,14 @@
+.error {
+  color: red;
+}
+
+.title {
+  margin: 36px 0 24px;
+  font-size: 1.5rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
